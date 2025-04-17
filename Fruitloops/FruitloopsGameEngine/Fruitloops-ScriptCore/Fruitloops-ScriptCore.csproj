@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{2778A774-93E4-626F-5CD8-FACCC80385D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fruitloops</RootNamespace>
+    <AssemblyName>Fruitloops-ScriptCore</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Assets\Scripts\</OutputPath>
+    <BaseIntermediateOutputPath>..\Assets\Scripts\Intermediates\Debug\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Assets\Scripts\</OutputPath>
+    <BaseIntermediateOutputPath>..\Assets\Scripts\Intermediates\Release\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Dist|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Assets\Scripts\</OutputPath>
+    <BaseIntermediateOutputPath>..\Assets\Scripts\Intermediates\Dist\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Dist|x64' ">
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Source\PlayerStats.cs" />
+    <Compile Include="Source\TutorialManager.cs" />
+    <Compile Include="Source\CameraUtils.cs" />
+    <Compile Include="Source\ChesterBread.cs" />
+    <Compile Include="Source\ChesterCheese.cs" />
+    <Compile Include="Source\ChesterChicken.cs" />
+    <Compile Include="Source\ChesterFish.cs" />
+    <Compile Include="Source\ChesterTomato.cs" />
+    <Compile Include="Source\Crafting_Slot_2.cs" />
+    <Compile Include="Source\BehaviourComponent.cs" />
+    <Compile Include="Source\BehaviourFCT.cs" />
+    <Compile Include="Source\Chester.cs" />
+    <Compile Include="Source\CookButton.cs" />
+    <Compile Include="Source\Crafting_Slot_1.cs" />
+    <Compile Include="Source\DisableHP.cs" />
+    <Compile Include="Source\EnemyTurnManager.cs" />
+    <Compile Include="Source\EnergyBarComponent.cs" />
+    <Compile Include="Source\GameMessage.cs" />
+    <Compile Include="Source\GameMessageHub.cs" />
+    <Compile Include="Source\GameMessageType.cs" />
+    <Compile Include="Source\HealthBarComponent.cs" />
+    <Compile Include="Source\HoverBag.cs" />
+    <Compile Include="Source\HoverInventoryBehaviour.cs" />
+    <Compile Include="Source\IGameObserver.cs" />
+    <Compile Include="Source\IGameSubject.cs" />
+    <Compile Include="Source\InventorySysAddButton.cs" />
+    <Compile Include="Source\InventorySystem.cs" />
+    <Compile Include="Source\MathUtils.cs" />
+    <Compile Include="Source\ReturnMenuButtonBehaviour.cs" />
+    <Compile Include="Source\ClosePauseMenuButtonBehaviour.cs" />
+    <Compile Include="Source\SettingsButtonBehaviour.cs" />
+    <Compile Include="Source\TutorialButtonBehaviour.cs" />
+    <Compile Include="Source\QuitButtonBehaviour.cs" />
+    <Compile Include="Source\ReloadButtonBehaviour.cs" />
+    <Compile Include="Source\LevelSwitchButtonBehaviour.cs" />
+    <Compile Include="Source\EndTurnButtonBehaviour.cs" />
+    <Compile Include="Source\Components.cs" />
+    <Compile Include="Source\CraftingSystem.cs" />
+    <Compile Include="Source\DebugUtils.cs" />
+    <Compile Include="Source\DecisionTree.cs" />
+    <Compile Include="Source\EnemyBehaviour.cs" />
+    <Compile Include="Source\EngineSystems.cs" />
+    <Compile Include="Source\Entity.cs" />
+    <Compile Include="Source\GameLogicSystem.cs" />
+    <Compile Include="Source\Input.cs" />
+    <Compile Include="Source\InternalCalls.cs" />
+    <Compile Include="Source\InventoryAddButton.cs" />
+    <Compile Include="Source\InventoryButtonDown.cs" />
+    <Compile Include="Source\PlayerBehaviour.cs" />
+    <Compile Include="Source\RemoveItemButton.cs" />
+    <Compile Include="Source\SlotOneDown.cs" />
+    <Compile Include="Source\SlotOneUp.cs" />
+    <Compile Include="Source\SlotTwoDown.cs" />
+    <Compile Include="Source\SlotTwoUp.cs" />
+    <Compile Include="Source\TempAddCheeseButton.cs" />
+    <Compile Include="Source\TileManager.cs" />
+    <Compile Include="Source\Unit.cs" />
+    <Compile Include="Source\UnitManager.cs" />
+    <Compile Include="Source\Vector2D.cs" />
+    <Compile Include="Source\VolumeSliderBehaviour.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

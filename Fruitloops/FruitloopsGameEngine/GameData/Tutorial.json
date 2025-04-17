@@ -1,0 +1,5013 @@
+{
+  "gameObjects": [
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "BackScreenButton",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "ScriptComponent": {
+        "name": "FruitLoops.TutorialManager"
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 0.0,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          4000.0,
+          4000.0
+        ]
+      },
+      "type": "Tutorial_TutorialBackScreenButton"
+    },
+    {
+      "Material": {
+        "color": [
+          0.0,
+          0.8999999761581421,
+          1.0
+        ],
+        "textureName": "Tutorialtile3",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": true,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -330.0,
+          -110.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -330.0,
+          -110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile3"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile2",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -220.0,
+          -110.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -220.0,
+          -110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile2"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -110.0,
+          -110.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -110.0,
+          -110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile3",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          0.0,
+          -110.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          -110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile3_1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile2",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          110.0,
+          -110.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          110.0,
+          -110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile2_1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          220.0,
+          -110.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          220.0,
+          -110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile1_1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile3",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          220.0,
+          0.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          220.0,
+          0.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile3_2"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialrighttile",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          330.0,
+          0.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          330.0,
+          0.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialrighttile"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutoriallefttile",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -440.0,
+          -330.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -440.0,
+          -330.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutoriallefttile"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialrighttile",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          330.0,
+          -330.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          330.0,
+          -330.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialrighttile_1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialrighttile",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          330.0,
+          -220.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          330.0,
+          -220.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialrighttile_2"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialrighttile",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          330.0,
+          -110.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          330.0,
+          -110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialrighttile_3"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutoriallefttile",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -440.0,
+          -220.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -440.0,
+          -220.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutoriallefttile_1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutoriallefttile",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -440.0,
+          -110.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -440.0,
+          -110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutoriallefttile_2"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialrightbottom",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          330.0,
+          -440.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          330.0,
+          -440.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialrightbottom"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialleftbottom",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -440.0,
+          -440.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -440.0,
+          -440.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialleftbottom"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialbottom3",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          220.0,
+          -440.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          220.0,
+          -440.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialbottom3"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialbottom2",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          110.0,
+          -440.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          110.0,
+          -440.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialbottom2"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialbottom1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -0.0,
+          -440.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -0.0,
+          -440.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialbottom1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialbottom3",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -110.0,
+          -440.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -110.0,
+          -440.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialbottom3_1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialbottom2",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -220.0,
+          -440.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -220.0,
+          -440.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialbottom2_1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialbottom1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -330.0,
+          -440.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -330.0,
+          -440.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialbottom1_1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile3",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          220.0,
+          -330.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          220.0,
+          -330.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile3_3"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile2",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          110.0,
+          -330.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          110.0,
+          -330.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile2_2"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -0.0,
+          -330.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -0.0,
+          -330.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile1_2"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile3",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -110.0,
+          -330.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -110.0,
+          -330.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile3_4"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile2",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -220.0,
+          -330.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -220.0,
+          -330.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile2_3"
+    },
+    {
+      "Material": {
+        "color": [
+          0.0,
+          0.8999999761581421,
+          1.0
+        ],
+        "textureName": "Tutorialtile1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": true,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -330.0,
+          -330.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -330.0,
+          -330.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile1_3"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          220.0,
+          -220.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          220.0,
+          -220.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile1_4"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile3",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          110.0,
+          -220.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          110.0,
+          -220.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile3_5"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile2",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          0.0,
+          -220.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          -220.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile2_4"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -110.0,
+          -220.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -110.0,
+          -220.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile1_5"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile3",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -220.0,
+          -220.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -220.0,
+          -220.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile3_6"
+    },
+    {
+      "Material": {
+        "color": [
+          0.0,
+          0.8999999761581421,
+          1.0
+        ],
+        "textureName": "Tutorialtile2",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": true,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -330.0,
+          -220.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -330.0,
+          -220.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile2_5"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutoriallefttile",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -440.0,
+          0.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -440.0,
+          0.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutoriallefttile_3"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile2",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          110.0,
+          0.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          110.0,
+          0.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile2_6"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile1_6"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtile3",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -110.0,
+          0.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -110.0,
+          0.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile3_7"
+    },
+    {
+      "Material": {
+        "color": [
+          0.0,
+          0.8999999761581421,
+          1.0
+        ],
+        "textureName": "Tutorialtile2",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": true,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -220.0,
+          -0.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -220.0,
+          -0.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile2_7"
+    },
+    {
+      "Material": {
+        "color": [
+          0.0,
+          0.8999999761581421,
+          1.0
+        ],
+        "textureName": "Tutorialtile1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": true,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -330.0,
+          0.0
+        ],
+        "tileType": 1,
+        "walkable": true
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -330.0,
+          0.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtile1_7"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutoriallefttop",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -440.0,
+          110.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -440.0,
+          110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutoriallefttop"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialrighttop",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          330.0,
+          110.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          330.0,
+          110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialrighttop"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtopfence4",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          220.0,
+          110.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          220.0,
+          110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtopfence4"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtopfence1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          110.0,
+          110.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          110.0,
+          110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtopfence1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtopfence4",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -0.0,
+          110.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -0.0,
+          110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtopfence4_1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtopfence3",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -110.0,
+          110.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -110.0,
+          110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtopfence3"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtopfence2",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -220.0,
+          110.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -220.0,
+          110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtopfence2"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Tutorialtopfence1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -330.0,
+          110.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -330.0,
+          110.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Tutorialtopfence1_1"
+    },
+    {
+      "AnimationComponent": {
+        "AnimationName": [
+          "PapaShroom_Jump",
+          "Player Power Up",
+          "Player Attack 2"
+        ]
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Player",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "RigidBody": {
+        "position": [
+          -330.0,
+          -330.0
+        ],
+        "velocity": [
+          0.0,
+          0.0
+        ]
+      },
+      "ScriptComponent": {
+        "name": "FruitLoops.Player"
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -330.0,
+          -330.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "UnitComponent": {
+        "attackPower": 0,
+        "energy": 4,
+        "health": 100,
+        "isAlive": true,
+        "isMoving": false,
+        "maxEnergy": 4,
+        "maxHealth": 100,
+        "position": [
+          -330.0,
+          -330.0
+        ],
+        "speed": 2,
+        "unitType": 0
+      },
+      "type": "Tutorial_Game_Player"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          0.0
+        ],
+        "textureName": "fish",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "ScriptComponent": {
+        "name": "FruitLoops.TempAddCheeseButton"
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -593.2078857421875,
+          -670.5237426757812
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_fish"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          0.0
+        ],
+        "textureName": "fried_fish_with_ketchup",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "ScriptComponent": {
+        "name": "FruitLoops.RemoveItemButton"
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -732.3119506835938,
+          -480.08795166015625
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_FriedFishWithKetchup"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          0.0
+        ],
+        "textureName": "tomato",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "ScriptComponent": {
+        "name": "FruitLoops.InventoryAddButton"
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -730.2958374023438,
+          -668.5084838867188
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_tomato"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "UpdatedCoverHole",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          220.0,
+          -330.0
+        ],
+        "scale": [
+          75.0,
+          75.0
+        ]
+      },
+      "type": "Tutorial_Game_hole"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "stageClear",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_stageClear"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "fish_cheese_stick",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_dishCooked"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "TileHighlight",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          4000.0,
+          4000.0
+        ]
+      },
+      "type": "Tutorial_Game_TileHighlight"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "headbuttIcon",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_headbuttIcon"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "specialAttackIcon",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -800.0,
+          0.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_specialAttackIcon"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "SkillsWindow",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -800.0,
+          -300.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_SkillsWindow"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          0.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "ScriptComponent": {
+        "name": "FruitLoops.InventorySystem"
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -530.2958374023438,
+          -668.5084838867188
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_InventorySystem"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T1",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -700.0,
+          -260.0
+        ],
+        "scale": [
+          500.0,
+          350.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T2",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -700.0,
+          -260.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText2"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T3",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -700.0,
+          -260.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText3"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "TutorialArrow",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -1075.0,
+          -520.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialArrowHP"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T4",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -700.0,
+          -260.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText4"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "TutorialArrow",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -1075.0,
+          -625.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialArrowEnergy"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T5",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -700.0,
+          -260.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText5"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "TutorialArrow",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -700.0,
+          -260.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialArrowAttacknEnergy"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T6",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -700.0,
+          -260.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText6"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T7",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -700.0,
+          -260.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText7"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T8",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -700.0,
+          0.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText8"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T9",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -700.0,
+          0.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText9"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T10",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -700.0,
+          0.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText10"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T11",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          580.0,
+          0.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText11"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T12",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          580.0,
+          0.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText12"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T13",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          580.0,
+          0.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText13"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T14",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          580.0,
+          0.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText14"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T15",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          580.0,
+          0.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText15"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T16",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          580.0,
+          350.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText16"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T17",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          580.0,
+          350.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText17"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T18",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          580.0,
+          350.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText18"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T19",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          580.0,
+          350.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText19"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "T20",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          580.0,
+          350.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Game_TutorialText20"
+    },
+    {
+      "AnimationComponent": {
+          "AnimationName": [
+              "Pickle's Idle",
+              "Pickle's Jump",
+              "Pickle's Bite",
+              "Pickle's Death",
+              "Pickle's Idle (Flip)",
+              "Pickle's Jump (Flip)",
+              "Pickle's Bite (Flip)",
+              "Pickle's Death (Flip)"
+          ]
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Enemy",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "RigidBody": {
+        "position": [
+          110.0,
+          -330.0
+        ],
+        "velocity": [
+          0.0,
+          0.0
+        ]
+      },
+      "ScriptComponent": {
+        "name": "FruitLoops.Enemy"
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          110.0,
+          -330.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "UnitComponent": {
+        "attackPower": 0,
+        "energy": 0,
+        "health": 1,
+        "isAlive": true,
+        "isMoving": false,
+        "maxEnergy": 0,
+        "maxHealth": 1,
+        "position": [
+          110.0,
+          -330.0
+        ],
+        "speed": 2,
+        "unitType": 1
+      },
+      "type": "Tutorial_Game_Enemy"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "treasure_chest",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "ScriptComponent": {
+        "name": "FruitLoops.ChesterChicken"
+      },
+      "TileComponent": {
+        "highlighted": false,
+        "highlightedEnemy": false,
+        "movementCost": 1.0,
+        "position": [
+          -110.0,
+          -210.0
+        ],
+        "tileType": 1,
+        "walkable": false
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -110.0,
+          -210.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Game_ChesterChicken"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Hey",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -220.80892944335938,
+          -219.80252075195312
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Game_Hey"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Hey",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -217.9411163330078,
+          -331.5893249511719
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Game_Hey_1"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Hey",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -217.94117736816406,
+          -113.74827575683594
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Game_Hey_2"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Hey",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Game_Hey_3"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Hey",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          1.4337587356567383,
+          -220.0
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Game_Hey_4"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Hey",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          219.3750457763672,
+          18.102981567382812
+        ],
+        "scale": [
+          110.0,
+          110.0
+        ]
+      },
+      "type": "Tutorial_Game_Hey_5"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.6000000238418579,
+        "text": "100 I100"
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -780.0,
+          -515.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_HealthBar"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.6000000238418579,
+        "text": "4 I4"
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -750.0,
+          -620.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_EnergyBar"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.6000000238418579,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          645.0,
+          -510.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_EnemyHealthBar"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.6000000238418579,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          680.0,
+          -615.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_EnemyEnergyBar"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 1.0,
+        "text": "0"
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -835.0,
+          -775.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_AttackPower"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 1.0,
+        "text": "1"
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -545.0,
+          -775.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_range"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 1.0,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          575.0,
+          -760.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_EnemyAttackPower"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 1.0,
+        "text": "1"
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          875.0,
+          -760.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_EnemyRange"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": "This is the most basic "
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -890.0,
+          -250.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_HeadButt"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": "attack of the player,"
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -890.0,
+          -300.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_HeadButt_1"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": "dealing damage to an"
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -890.0,
+          -350.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_HeadButt_2"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": "adjacent enemy"
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -890.0,
+          -400.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_HeadButt_3"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": "This is an advanced "
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -890.0,
+          -350.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_RangedAttack"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": "attack of the player,"
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -890.0,
+          -400.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_RangedAttack_1"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": "dealing damage enemy"
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -890.0,
+          -450.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_RangedAttack_2"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": "of 2 or 3 tiles away"
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -890.0,
+          -500.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_RangedAttack_3"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -1000.0,
+          -350.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_Inventory"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -1000.0,
+          -350.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_Inventory_1"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -415.0,
+          -460.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_bagSlotCheese"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -450.0,
+          -550.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_bagSlotBread"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -230.0,
+          -550.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_bagSlotTomato"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -260.0,
+          -460.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_bagSlotFish"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -325.0,
+          -628.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_bagSlotChicken"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -572.0,
+          -472.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_bagEmpty1"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -572.0,
+          -510.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_bagEmpty2"
+    },
+    {
+      "FontData": {
+        "font": "Roundfont-Regular",
+        "scale": 0.0,
+        "text": ""
+      },
+      "Material": {
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "textureName": "",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -430.0,
+          -550.0
+        ],
+        "scale": [
+          0.0,
+          0.0
+        ]
+      },
+      "type": "Tutorial_Font_bagEmpty3"
+    },
+    {
+        "FontData": {
+            "font": "Roundfont-Regular",
+            "scale": 0.0,
+            "text": "Attack t450"
+        },
+        "Material": {
+            "color": [
+                0.88627,
+                0.55686,
+                0.16078
+            ],
+            "textureName": "",
+            "uvMax": [
+                1.0,
+                1.0
+            ],
+            "uvMin": [
+                0.0,
+                0.0
+            ]
+        },
+        "Transform": {
+            "orientation": [
+                0.0,
+                0.0
+            ],
+            "position": [
+                320.0,
+                -810.0
+            ],
+            "scale": [
+                0.0,
+                0.0
+            ]
+        },
+        "type": "Tutorial_Font_FishCheeseStickAbility"
+    },
+    {
+        "FontData": {
+            "font": "Roundfont-Regular",
+            "scale": 0.0,
+            "text": "HPt500 Attack   20"
+        },
+        "Material": {
+            "color": [
+                0.53725,
+                0.83137,
+                0.18824
+            ],
+            "textureName": "",
+            "uvMax": [
+                1.0,
+                1.0
+            ],
+            "uvMin": [
+                0.0,
+                0.0
+            ]
+        },
+        "Transform": {
+            "orientation": [
+                0.0,
+                0.0
+            ],
+            "position": [
+                320.0,
+                -810.0
+            ],
+            "scale": [
+                0.0,
+                0.0
+            ]
+        },
+        "type": "Tutorial_Font_CheesySandwichAbility"
+    },
+    {
+        "FontData": {
+            "font": "Roundfont-Regular",
+            "scale": 0.0,
+            "text": "Restore Your HP to Max"
+        },
+        "Material": {
+            "color": [
+                0.82745,
+                0.36863,
+                0.36863
+            ],
+            "textureName": "",
+            "uvMax": [
+                1.0,
+                1.0
+            ],
+            "uvMin": [
+                0.0,
+                0.0
+            ]
+        },
+        "Transform": {
+            "orientation": [
+                0.0,
+                0.0
+            ],
+            "position": [
+                320.0,
+                -810.0
+            ],
+            "scale": [
+                0.0,
+                0.0
+            ]
+        },
+        "type": "Tutorial_Font_NuggetsWithKetchupAbility"
+    },
+    {
+        "FontData": {
+            "font": "Roundfont-Regular",
+            "scale": 0.0,
+            "text": "Restore Your Energy to Max"
+        },
+        "Material": {
+            "color": [
+                0.99608,
+                0.84706,
+                0.27059
+            ],
+            "textureName": "",
+            "uvMax": [
+                1.0,
+                1.0
+            ],
+            "uvMin": [
+                0.0,
+                0.0
+            ]
+        },
+        "Transform": {
+            "orientation": [
+                0.0,
+                0.0
+            ],
+            "position": [
+                320.0,
+                -810.0
+            ],
+            "scale": [
+                0.0,
+                0.0
+            ]
+        },
+        "type": "Tutorial_Font_ChickenSandwichAbility"
+    },
+    {
+        "FontData": {
+            "font": "Roundfont-Regular",
+            "scale": 0.0,
+            "text": "HP t250"
+        },
+        "Material": {
+            "color": [
+                0.82745,
+                0.36863,
+                0.36863
+            ],
+            "textureName": "",
+            "uvMax": [
+                1.0,
+                1.0
+            ],
+            "uvMin": [
+                0.0,
+                0.0
+            ]
+        },
+        "Transform": {
+            "orientation": [
+                0.0,
+                0.0
+            ],
+            "position": [
+                320.0,
+                -810.0
+            ],
+            "scale": [
+                0.0,
+                0.0
+            ]
+        },
+        "type": "Tutorial_Font_FriedFishWithKetchupAbility"
+    },
+    {
+        "FontData": {
+            "font": "Roundfont-Regular",
+            "scale": 0.0,
+            "text": "Energy t2"
+        },
+        "Material": {
+            "color": [
+                0.99608,
+                0.84706,
+                0.27059
+            ],
+            "textureName": "",
+            "uvMax": [
+                1.0,
+                1.0
+            ],
+            "uvMin": [
+                0.0,
+                0.0
+            ]
+        },
+        "Transform": {
+            "orientation": [
+                0.0,
+                0.0
+            ],
+            "position": [
+                320.0,
+                -810.0
+            ],
+            "scale": [
+                0.0,
+                0.0
+            ]
+        },
+        "type": "Tutorial_Font_FishToastAbility"
+    },
+    {
+        "FontData": {
+            "font": "Roundfont-Regular",
+            "scale": 0.0,
+            "text": "HP t100 Attack t20"
+        },
+        "Material": {
+            "color": [
+                0.53725,
+                0.83137,
+                0.18824
+            ],
+            "textureName": "",
+            "uvMax": [
+                1.0,
+                1.0
+            ],
+            "uvMin": [
+                0.0,
+                0.0
+            ]
+        },
+        "Transform": {
+            "orientation": [
+                0.0,
+                0.0
+            ],
+            "position": [
+                320.0,
+                -810.0
+            ],
+            "scale": [
+                0.0,
+                0.0
+            ]
+        },
+        "type": "Tutorial_Font_TomatoSoupWithBreadAbility"
+    },
+    {
+        "FontData": {
+            "font": "Roundfont-Regular",
+            "scale": 0.0,
+            "text": "Attack t10"
+        },
+        "Material": {
+            "color": [
+                0.88627,
+                0.55686,
+                0.16078
+            ],
+            "textureName": "",
+            "uvMax": [
+                1.0,
+                1.0
+            ],
+            "uvMin": [
+                0.0,
+                0.0
+            ]
+        },
+        "Transform": {
+            "orientation": [
+                0.0,
+                0.0
+            ],
+            "position": [
+                320.0,
+                -810.0
+            ],
+            "scale": [
+                0.0,
+                0.0
+            ]
+        },
+        "type": "Tutorial_Font_BakedChickenCheeseAbility"
+    },
+    {
+      "FontData": {
+          "font": "Roundfont-Regular",
+          "scale": 0.0,
+          "text": "Ranged Ability Unlocked"
+      },
+      "Material": {
+          "color": [
+              0.6510,
+              0.4784,
+              0.0
+          ],
+          "textureName": "",
+          "uvMax": [
+              1.0,
+              1.0
+          ],
+          "uvMin": [
+              0.0,
+              0.0
+          ]
+      },
+      "Transform": {
+          "orientation": [
+              0.0,
+              0.0
+          ],
+          "position": [
+              320.0,
+              -810.0
+          ],
+          "scale": [
+              0.0,
+              0.0
+          ]
+      },
+      "type": "Tutorial_Font_CheesyRoastedTomatoAbility"
+  }
+  ]
+}

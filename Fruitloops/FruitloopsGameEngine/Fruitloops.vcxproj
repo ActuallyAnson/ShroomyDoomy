@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.Windows.CppWinRT.2.0.220531.1\build\native\Microsoft.Windows.CppWinRT.props" Condition="Exists('..\packages\Microsoft.Windows.CppWinRT.2.0.220531.1\build\native\Microsoft.Windows.CppWinRT.props')" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Dist|x64">
+      <Configuration>Dist</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3C9B2CD3-2853-6E20-915A-477C7D310911}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Fruitloops</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\Debug-windows-x86_64\Fruitloops\</OutDir>
+    <IntDir>..\bin-int\Debug-windows-x86_64\Fruitloops\</IntDir>
+    <TargetName>Fruitloops</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\Release-windows-x86_64\Fruitloops\</OutDir>
+    <IntDir>..\bin-int\Release-windows-x86_64\Fruitloops\</IntDir>
+    <TargetName>Fruitloops</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\Dist-windows-x86_64\Fruitloops\</OutDir>
+    <IntDir>..\bin-int\Dist-windows-x86_64\Fruitloops\</IntDir>
+    <TargetName>Fruitloops</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Assets;Dependancies\glfw\include;Dependancies;Source;Dependancies\include;Dependancies\include\lua;Dependancies\include\mono;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3_mt.lib;opengl32.lib;glew32.lib;fmod_vc.lib;freetype.lib;lua54.lib;imguilib.lib;mono-2.0-sgen.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>Dependancies\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\glew32.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\glew32.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\glew32.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\fmod.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\fmod.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\fmod.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\freetype.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\freetype.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\freetype.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\lua54.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\lua54.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\lua54.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\mono-2.0-sgen.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\mono-2.0-sgen.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\mono-2.0-sgen.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\MonoPosixHelper.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\MonoPosixHelper.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\MonoPosixHelper.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\mscorlib.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\mscorlib.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\mscorlib.dll ..\bin\Debug-windows-x86_64\Fruitloops &gt; nul)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Assets;Dependancies\glfw\include;Dependancies;Source;Dependancies\include;Dependancies\include\lua;Dependancies\include\mono;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glfw3_mt.lib;opengl32.lib;glew32.lib;fmod_vc.lib;freetype.lib;lua54.lib;imguilib.lib;mono-2.0-sgen.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>Dependancies\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\glew32.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\glew32.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\glew32.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\fmod.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\fmod.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\fmod.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\freetype.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\freetype.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\freetype.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\lua54.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\lua54.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\lua54.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\mono-2.0-sgen.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\mono-2.0-sgen.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\mono-2.0-sgen.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\MonoPosixHelper.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\MonoPosixHelper.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\MonoPosixHelper.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\mscorlib.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\mscorlib.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\mscorlib.dll ..\bin\Release-windows-x86_64\Fruitloops &gt; nul)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Assets;Dependancies\glfw\include;Dependancies;Source;Dependancies\include;Dependancies\include\lua;Dependancies\include\mono;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glfw3_mt.lib;opengl32.lib;glew32.lib;fmod_vc.lib;freetype.lib;lua54.lib;imguilib.lib;mono-2.0-sgen.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>Dependancies\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\glew32.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\glew32.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\glew32.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\fmod.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\fmod.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\fmod.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\freetype.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\freetype.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\freetype.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\lua54.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\lua54.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\lua54.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\mono-2.0-sgen.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\mono-2.0-sgen.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\mono-2.0-sgen.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\MonoPosixHelper.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\MonoPosixHelper.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\MonoPosixHelper.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul)
+IF EXIST ..\FruitloopsGameEngine\Dependancies\lib\mscorlib.dll\ (xcopy /Q /E /Y /I ..\FruitloopsGameEngine\Dependancies\lib\mscorlib.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul) ELSE (xcopy /Q /Y /I ..\FruitloopsGameEngine\Dependancies\lib\mscorlib.dll ..\bin\Dist-windows-x86_64\Fruitloops &gt; nul)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Animation.h" />
+    <ClInclude Include="Source\AssetsManager.h" />
+    <ClInclude Include="Source\Audio.h" />
+    <ClInclude Include="Source\BackgroundLayer.h" />
+    <ClInclude Include="Source\Button.h" />
+    <ClInclude Include="Source\CameraComponent.h" />
+    <ClInclude Include="Source\ChestOverlayLayer.h" />
+    <ClInclude Include="Source\Collision.h" />
+    <ClInclude Include="Source\ComponentManager.h" />
+    <ClInclude Include="Source\ConfigData.h" />
+    <ClInclude Include="Source\Core.h" />
+    <ClInclude Include="Source\Debug.h" />
+    <ClInclude Include="Source\EndMenuLayer.h" />
+    <ClInclude Include="Source\DebugMacros.h" />
+    <ClInclude Include="Source\DebugManager.h" />
+    <ClInclude Include="Source\ECSDefinitions.h" />
+    <ClInclude Include="Source\ECSHub.h" />
+    <ClInclude Include="Source\EntityManager.h" />
+    <ClInclude Include="Source\EnvironmentLayer.h" />
+    <ClInclude Include="Source\Factory.h" />
+    <ClInclude Include="Source\FontData.h" />
+    <ClInclude Include="Source\FontLayer.h" />
+    <ClInclude Include="Source\FPSLayer.h" />
+    <ClInclude Include="Source\FrameBuffer.h" />
+    <ClInclude Include="Source\GameLayer.h" />
+    <ClInclude Include="Source\GameTypes.h" />
+    <ClInclude Include="Source\Graphics.h" />
+    <ClInclude Include="Source\HelperFunctions.h" />
+    <ClInclude Include="Source\IComponentArray.h" />
+    <ClInclude Include="Source\ImGuiPanels.h" />
+    <ClInclude Include="Source\ImguiCollision.h" />
+    <ClInclude Include="Source\ImguiPanelDocking.h" />
+    <ClInclude Include="Source\KeyCodes.h" />
+    <ClInclude Include="Source\Layer.h" />
+    <ClInclude Include="Source\LayerStack.h" />
+    <ClInclude Include="Source\LevelManager.h" />
+    <ClInclude Include="Source\Log.h" />
+    <ClInclude Include="Source\LogicProxySystem.h" />
+    <ClInclude Include="Source\Material.h" />
+    <ClInclude Include="Source\Matrix3x3.h" />
+    <ClInclude Include="Source\Matrix4x4.h" />
+    <ClInclude Include="Source\Message.h" />
+    <ClInclude Include="Source\Observer.h" />
+    <ClInclude Include="Source\PauseManager.h" />
+    <ClInclude Include="Source\PauseMenuLayer.h" />
+    <ClInclude Include="Source\Physics.h" />
+    <ClInclude Include="Source\PrefabManager.h" />
+    <ClInclude Include="Source\Profiler.h" />
+    <ClInclude Include="Source\Renderer.h" />
+    <ClInclude Include="Source\RigidBody.h" />
+    <ClInclude Include="Source\ScriptComponent.h" />
+    <ClInclude Include="Source\ScriptGlue.h" />
+    <ClInclude Include="Source\ScriptSystem.h" />
+    <ClInclude Include="Source\Serialization.h" />
+    <ClInclude Include="Source\ShaderManager.h" />
+    <ClInclude Include="Source\StoryLayer.h" />
+    <ClInclude Include="Source\Subject.h" />
+    <ClInclude Include="Source\System.h" />
+    <ClInclude Include="Source\SystemManager.h" />
+    <ClInclude Include="Source\TileComponent.h" />
+    <ClInclude Include="Source\Transform.h" />
+    <ClInclude Include="Source\MainMenuLayer.h" />
+    <ClInclude Include="Source\UILayer.h" />
+    <ClInclude Include="Source\UnitComponent.h" />
+    <ClInclude Include="Source\Utility.h" />
+    <ClInclude Include="Source\UtilsLayer.h" />
+    <ClInclude Include="Source\Vector2D.h" />
+    <ClInclude Include="Source\Vector3D.h" />
+    <ClInclude Include="Source\WindowsWindow.h" />
+    <ClInclude Include="Source\input.h" />
+    <ClInclude Include="Source\main.h" />
+    <ClInclude Include="Source\pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\AssetsManager.cpp" />
+    <ClCompile Include="Source\Audio.cpp" />
+    <ClCompile Include="Source\Collision.cpp" />
+    <ClCompile Include="Source\ConfigData.cpp" />
+    <ClCompile Include="Source\Core.cpp" />
+    <ClCompile Include="Source\Debug.cpp" />
+    <ClCompile Include="Source\DebugManager.cpp" />
+    <ClCompile Include="Source\ECSHub.cpp" />
+    <ClCompile Include="Source\EntityManager.cpp" />
+    <ClCompile Include="Source\Factory.cpp" />
+    <ClCompile Include="Source\FrameBuffer.cpp" />
+    <ClCompile Include="Source\Graphics.cpp" />
+    <ClCompile Include="Source\ImGuiPanels.cpp" />
+    <ClCompile Include="Source\ImguiCollision.cpp" />
+    <ClCompile Include="Source\ImguiPanelDocking.cpp" />
+    <ClCompile Include="Source\Layer.cpp" />
+    <ClCompile Include="Source\LayerStack.cpp" />
+    <ClCompile Include="Source\LevelManager.cpp" />
+    <ClCompile Include="Source\Log.cpp" />
+    <ClCompile Include="Source\Matrix3x3.cpp" />
+    <ClCompile Include="Source\Matrix4x4.cpp" />
+    <ClCompile Include="Source\PauseManager.cpp" />
+    <ClCompile Include="Source\Physics.cpp" />
+    <ClCompile Include="Source\PrefabManager.cpp" />
+    <ClCompile Include="Source\Profiler.cpp" />
+    <ClCompile Include="Source\Renderer.cpp" />
+    <ClCompile Include="Source\ScriptGlue.cpp" />
+    <ClCompile Include="Source\ScriptSystem.cpp" />
+    <ClCompile Include="Source\Serialization.cpp" />
+    <ClCompile Include="Source\ShaderManager.cpp" />
+    <ClCompile Include="Source\Vector2D.cpp" />
+    <ClCompile Include="Source\Vector3D.cpp" />
+    <ClCompile Include="Source\WindowsWindow.cpp" />
+    <ClCompile Include="Source\input.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\Microsoft.Windows.CppWinRT.2.0.220531.1\build\native\Microsoft.Windows.CppWinRT.targets" Condition="Exists('..\packages\Microsoft.Windows.CppWinRT.2.0.220531.1\build\native\Microsoft.Windows.CppWinRT.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Windows.CppWinRT.2.0.220531.1\build\native\Microsoft.Windows.CppWinRT.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Windows.CppWinRT.2.0.220531.1\build\native\Microsoft.Windows.CppWinRT.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Windows.CppWinRT.2.0.220531.1\build\native\Microsoft.Windows.CppWinRT.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Windows.CppWinRT.2.0.220531.1\build\native\Microsoft.Windows.CppWinRT.targets'))" />
+  </Target>
+</Project>

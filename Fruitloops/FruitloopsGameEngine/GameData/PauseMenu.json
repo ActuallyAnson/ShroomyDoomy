@@ -1,0 +1,262 @@
+{
+  "gameObjects": [
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Pause_BG",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -37.241455078125,
+          -234.158935546875
+        ],
+        "scale": [
+          3000.0,
+          1500.0
+        ]
+      },
+      "type": "PauseMenu_PauseBG"
+    },
+    {
+      "Button": {
+        "isClicked": false,
+        "isEnabled": true,
+        "isHovered": false
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "mini_restart",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "ScriptComponent": {
+        "name": "FruitLoops.ReloadButtonBehaviour"
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -200.0,
+          -100.0
+        ],
+        "scale": [
+          200.0,
+          200.0
+        ]
+      },
+      "type": "PauseMenu_RestartButton"
+    },
+    {
+      "Button": {
+        "isClicked": false,
+        "isEnabled": true,
+        "isHovered": false
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "mini_resume",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "ScriptComponent": {
+        "name": "FruitLoops.ClosePauseMenuButtonBehaviour"
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          -100.0
+        ],
+        "scale": [
+          200.0,
+          200.0
+        ]
+      },
+      "type": "PauseMenu_ResumeButton"
+    },
+    {
+      "Button": {
+        "isClicked": false,
+        "isEnabled": true,
+        "isHovered": false
+      },
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "mini_menu",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "ScriptComponent": {
+        "name": "FruitLoops.ReturnMenuButtonBehaviour"
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          200.0,
+          -100.0
+        ],
+        "scale": [
+          200.0,
+          200.0
+        ]
+      },
+      "type": "PauseMenu_MenuButton"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Music_Icon",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          -300.0,
+          -300.0
+        ],
+        "scale": [
+          84.0,
+          96.0
+        ]
+      },
+      "type": "PauseMenu_MusicIcon"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Bar_Filled",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          -300.0
+        ],
+        "scale": [
+          486.0,
+          32.0
+        ]
+      },
+      "type": "PauseMenu_BGMSliderFill"
+    },
+    {
+      "Material": {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "textureName": "Bar_itself",
+        "uvMax": [
+          1.0,
+          1.0
+        ],
+        "uvMin": [
+          0.0,
+          0.0
+        ]
+      },
+      "ScriptComponent": {
+        "name": "FruitLoops.VolumeSliderBehaviour"
+      },
+      "Transform": {
+        "orientation": [
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          -300.0
+        ],
+        "scale": [
+          499.0,
+          55.0
+        ]
+      },
+      "type": "PauseMenu_BGMSliderTrack"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "gameObjects": [
+        {
+            "FontData": {
+                "font": "Roundfont-Regular",
+                "scale": 1.0,
+                "text": "FPS: 71.80"
+            },
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -1100.0,
+                    400.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "FPS_Font_Object"
+        }
+    ]
+}

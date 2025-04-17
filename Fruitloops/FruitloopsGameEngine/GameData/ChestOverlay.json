@@ -1,0 +1,367 @@
+{
+    "gameObjects": [
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "cheese_treasure_chest",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -200.0
+                ],
+                "scale": [
+                    1000.0,
+                    1000.0
+                ]
+            },
+            "type": "ChestOverlay_ChesterC"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "Chest_HalfOpen_Cheese",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -200.0
+                ],
+                "scale": [
+                    900.0,
+                    900.0
+                ]
+            },
+            "type": "ChestOverlay_ChesterHalfCheese"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "treasure_chest",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -200.0
+                ],
+                "scale": [
+                    1000.0,
+                    1000.0
+                ]
+            },
+            "type": "ChestOverlay_ClosedChest"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "Chest_HalfOpen_Tomato",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -200.0
+                ],
+                "scale": [
+                    900.0,
+                    900.0
+                ]
+            },
+            "type": "ChestOverlay_ChesterHalfTomato"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "tomato_treasure_chest",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -200.0
+                ],
+                "scale": [
+                    1000.0,
+                    1000.0
+                ]
+            },
+            "type": "ChestOverlay_ChesterT"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "Chest_HalfOpen_Bread",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -200.0
+                ],
+                "scale": [
+                    900.0,
+                    900.0
+                ]
+            },
+            "type": "ChestOverlay_ChesterHalfBread"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "BreadTreasure",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -200.0
+                ],
+                "scale": [
+                    1000.0,
+                    1000.0
+                ]
+            },
+            "type": "ChestOverlay_ChesterB"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "Chest_HalfOpen_Fish",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -200.0
+                ],
+                "scale": [
+                    900.0,
+                    900.0
+                ]
+            },
+            "type": "ChestOverlay_ChesterHalfFish"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "fish_treasure_chest",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -200.0
+                ],
+                "scale": [
+                    1000.0,
+                    1000.0
+                ]
+            },
+            "type": "ChestOverlay_ChesterF"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "Chest_HalfOpen_Chicken",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -200.0
+                ],
+                "scale": [
+                    900.0,
+                    900.0
+                ]
+            },
+            "type": "ChestOverlay_ChesterHalfChicken"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "chicken_treasure_chest",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -200.0
+                ],
+                "scale": [
+                    1000.0,
+                    1000.0
+                ]
+            },
+            "type": "ChestOverlay_ChesterY"
+        }
+    ]
+}

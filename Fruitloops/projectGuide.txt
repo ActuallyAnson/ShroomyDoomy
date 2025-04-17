@@ -1,0 +1,16 @@
+# Fruitloops Engine
+
+Simple custom game Engine for our game Shroomy Doomy.
+
+## SETUP
+
+Simply click on the GenerateProjects.bat to setup the project
+
+## GAMEPLAY
+
+The player can be moved with mouse click. Click the player to select the player and press an existing tile to move the player to the tile. Press end turn and the enemy will perform path finding to the player.
+
+
+
+
+

@@ -1,0 +1,674 @@
+{
+    "Animation": [
+        {
+            "animationSpeed": 0.20400001108646393,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                4000.0
+            ],
+            "framesPerRow": [
+                5
+            ],
+            "looping": true,
+            "playing": true,
+            "position": [
+                -440.0,
+                -320.0
+            ],
+            "positionOffset": [
+                0.0,
+                10.0
+            ],
+            "scale": [
+                170.0,
+                170.0
+            ],
+            "scaleOffset": [
+                120.0,
+                150.0
+            ],
+            "soundMap": {},
+            "textureName": "PapaShroom Idle"
+        },
+        {
+            "animationSpeed": 0.20400001108646393,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                4000.0
+            ],
+            "framesPerRow": [
+                5
+            ],
+            "looping": true,
+            "playing": true,
+            "position": [
+                770.0,
+                10.0
+            ],
+            "positionOffset": [
+                0.0,
+                10.0
+            ],
+            "scale": [
+                60.0,
+                60.0
+            ],
+            "scaleOffset": [
+                120.0,
+                150.0
+            ],
+            "soundMap": {},
+            "textureName": "Pickle's Idle"
+        },
+        {
+            "animationSpeed": 0.20400001108646393,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                4000.0
+            ],
+            "framesPerRow": [
+                5
+            ],
+            "looping": true,
+            "playing": true,
+            "position": [
+                -770.0,
+                -210.0
+            ],
+            "positionOffset": [
+                0.0,
+                10.0
+            ],
+            "scale": [
+                60.0,
+                60.0
+            ],
+            "scaleOffset": [
+                100.0,
+                100.0
+            ],
+            "soundMap": {},
+            "textureName": "Bloopie Idle"
+        },
+        {
+            "animationSpeed": 0.20400001108646393,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                4000.0
+            ],
+            "framesPerRow": [
+                5
+            ],
+            "looping": true,
+            "playing": true,
+            "position": [
+                110.0,
+                -311.7081298828125
+            ],
+            "positionOffset": [
+                0.0,
+                10.0
+            ],
+            "scale": [
+                170.0,
+                170.0
+            ],
+            "scaleOffset": [
+                120.0,
+                150.0
+            ],
+            "soundMap": {},
+            "textureName": "Pickle's Idle (Flip)"
+        },
+        {
+            "animationSpeed": 0.04600000008940697,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                4000.0
+            ],
+            "framesPerRow": [
+                5,
+                5,
+                5,
+                4
+            ],
+            "looping": true,
+            "playing": false,
+            "position": [
+                -330.0,
+                -266.8777770996094
+            ],
+            "positionOffset": [
+                0.0,
+                55.0
+            ],
+            "scale": [
+                170.0,
+                170.0
+            ],
+            "scaleOffset": [
+                20.0,
+                40.0
+            ],
+            "soundMap": {
+                "5": "SFX_PlayerMove_Jump_03"
+            },
+            "textureName": "PapaShroom_Jump"
+        },
+        {
+            "animationSpeed": 0.03400000184774399,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                4000.0
+            ],
+            "framesPerRow": [
+                5,
+                5,
+                5,
+                5,
+                2
+            ],
+            "looping": false,
+            "playing": false,
+            "position": [
+                -440.0,
+                -285.0
+            ],
+            "positionOffset": [
+                0.0,
+                45.0
+            ],
+            "scale": [
+                170.0,
+                170.0
+            ],
+            "scaleOffset": [
+                15.0,
+                15.0
+            ],
+            "soundMap": {
+                "5": "SFX_PlayerMove_Jump_03"
+            },
+            "textureName": "Player Power Up"
+        },
+        {
+            "animationSpeed": 0.036000002175569534,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                3200.0
+            ],
+            "framesPerRow": [
+                5,
+                5,
+                5,
+                5
+            ],
+            "looping": true,
+            "playing": true,
+            "position": [
+                110.0,
+                -291.7081298828125
+            ],
+            "positionOffset": [
+                0.0,
+                30.0
+            ],
+            "scale": [
+                200.0,
+                250.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {},
+            "textureName": "Pickle's Jump"
+        },
+        {
+            "animationSpeed": 0.04100000113248825,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                3200.0
+            ],
+            "framesPerRow": [
+                5,
+                5,
+                5,
+                5
+            ],
+            "looping": true,
+            "playing": true,
+            "position": [
+                110.0,
+                -291.7081298828125
+            ],
+            "positionOffset": [
+                0.0,
+                55.0
+            ],
+            "scale": [
+                200.0,
+                250.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {},
+            "textureName": "Bloopie Jump"
+        },
+        {
+            "animationSpeed": 0.07500000298023224,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                3200.0
+            ],
+            "framesPerRow": [
+                5,
+                5,
+                5,
+                5
+            ],
+            "looping": true,
+            "playing": false,
+            "position": [
+                330.0,
+                32.35700225830078
+            ],
+            "positionOffset": [
+                0.0,
+                30.0
+            ],
+            "scale": [
+                200.0,
+                250.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {
+                "15": "SFX_EnemyMove_2"
+            },
+            "textureName": "Pickle's Jump (Flip)"
+        },
+        {
+            "animationSpeed": 0.10000000149011612,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                2000.0
+            ],
+            "framesPerRow": [
+                4,
+                4
+            ],
+            "looping": false,
+            "playing": false,
+            "position": [
+                338.0,
+                255.0
+            ],
+            "positionOffset": [
+                8.0,
+                35.0
+            ],
+            "scale": [
+                150.0,
+                180.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {},
+            "textureName": "Pickle's Bite"
+        },
+        {
+            "animationSpeed": 0.10000000149011612,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                2000.0
+            ],
+            "framesPerRow": [
+                5,
+                2
+            ],
+            "looping": false,
+            "playing": false,
+            "position": [
+                338.0,
+                255.0
+            ],
+            "positionOffset": [
+                0.0,
+                0.0
+            ],
+            "scale": [
+                150.0,
+                180.0
+            ],
+            "scaleOffset": [
+                90.0,
+                50.0
+            ],
+            "soundMap": {},
+            "textureName": "Bloopie Bite"
+        },
+        {
+            "animationSpeed": 0.10000000149011612,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                2000.0
+            ],
+            "framesPerRow": [
+                4,
+                4
+            ],
+            "looping": false,
+            "playing": false,
+            "position": [
+                338.0,
+                255.0
+            ],
+            "positionOffset": [
+                8.0,
+                35.0
+            ],
+            "scale": [
+                150.0,
+                180.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {},
+            "textureName": "Pickle's Bite (Flip)"
+        },
+        {
+            "animationSpeed": 0.10000000149011612,
+            "entities": [
+                0
+            ],
+            "frameSize": [
+                3000.0,
+                1200.0
+            ],
+            "framesPerRow": [
+                5,
+                2
+            ],
+            "looping": false,
+            "playing": false,
+            "position": [
+                -50.0,
+                0.0
+            ],
+            "positionOffset": [
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1500.0,
+                1000.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {},
+            "textureName": "Pickle's AttackEffect"
+        },
+        {
+            "animationSpeed": 0.15000000596046448,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                2400.0
+            ],
+            "framesPerRow": [
+                5,
+                5,
+                2
+            ],
+            "looping": false,
+            "playing": false,
+            "position": [
+                338.0,
+                265.0
+            ],
+            "positionOffset": [
+                8.0,
+                45.0
+            ],
+            "scale": [
+                300.0,
+                350.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {
+                "2": "SFX_Enemy_Get_Attacked_3"
+            },
+            "textureName": "Pickle's Death"
+        },
+        {
+            "animationSpeed": 0.15000000596046448,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                2400.0
+            ],
+            "framesPerRow": [
+                5,
+                5,
+                3
+            ],
+            "looping": false,
+            "playing": false,
+            "position": [
+                338.0,
+                265.0
+            ],
+            "positionOffset": [
+                8.0,
+                25.0
+            ],
+            "scale": [
+                300.0,
+                350.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {
+                "2": "SFX_Enemy_Get_Attacked_3"
+            },
+            "textureName": "Bloopie Death"
+        },
+        {
+            "animationSpeed": 0.15000000596046448,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                2400.0
+            ],
+            "framesPerRow": [
+                5,
+                5,
+                2
+            ],
+            "looping": false,
+            "playing": false,
+            "position": [
+                338.0,
+                265.0
+            ],
+            "positionOffset": [
+                8.0,
+                45.0
+            ],
+            "scale": [
+                300.0,
+                350.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {
+                "2": "SFX_Enemy_Get_Attacked_3"
+            },
+            "textureName": "Pickle's Death (Flip)"
+        },
+        {
+            "animationSpeed": 0.20000000298023224,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                1600.0
+            ],
+            "framesPerRow": [
+                5,
+                5,
+                3
+            ],
+            "looping": false,
+            "playing": false,
+            "position": [
+                -266.27593994140625,
+                35.0
+            ],
+            "positionOffset": [
+                -50.0,
+                35.0
+            ],
+            "scale": [
+                225.0,
+                225.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {},
+            "textureName": "Rat"
+        },
+        {
+            "animationSpeed": 0.10000000149011612,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                1600.0
+            ],
+            "framesPerRow": [
+                5,
+                5,
+                3
+            ],
+            "looping": false,
+            "playing": false,
+            "position": [
+                -415.0,
+                -295.0
+            ],
+            "positionOffset": [
+                25.0,
+                35.0
+            ],
+            "scale": [
+                300.0,
+                300.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {},
+            "textureName": "Player Attack 2"
+        },
+        {
+            "animationSpeed": 0.10000000149011612,
+            "entities": [
+                0
+            ],
+            "frameSize": [
+                4000.0,
+                1600.0
+            ],
+            "framesPerRow": [
+                5,
+                3
+            ],
+            "looping": false,
+            "playing": false,
+            "position": [
+                -50.0,
+                0.0
+            ],
+            "positionOffset": [
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1500.0,
+                1000.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {},
+            "textureName": "Player Attack"
+        },
+        {
+            "animationSpeed": 0.20000000298023224,
+            "entities": [],
+            "frameSize": [
+                4000.0,
+                3200.0
+            ],
+            "framesPerRow": [
+                5,
+                5,
+                5,
+                5
+            ],
+            "looping": false,
+            "playing": false,
+            "position": [
+                -1.2517304420471191,
+                -80.0
+            ],
+            "positionOffset": [
+                8.0,
+                35.0
+            ],
+            "scale": [
+                150.0,
+                180.0
+            ],
+            "scaleOffset": [
+                0.0,
+                0.0
+            ],
+            "soundMap": {},
+            "textureName": "Puddle's Jump"
+        }
+    ]
+}

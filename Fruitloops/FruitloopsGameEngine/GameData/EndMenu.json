@@ -1,0 +1,433 @@
+{
+    "gameObjects": [
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "stageClear",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_stageClear"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "tutorialClear",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_tutorialClear"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "stage2Clear",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_stage2Clear"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "Level1",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_tutorialClearLevel1"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "MainMenu",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_tutorialClearMainMenu"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "stageClearReplay",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_stageClearReplay"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "stageClearNextStage",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_stageClearNextStage"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "stageClearReplay",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_stage2ClearReplay"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "MainMenu",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_stage2ClearMainMenu"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "ToBeContinued",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -600.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_stage2ClearToBeContinued"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "GameOver",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_GameOver"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "YesButton",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_YesButton"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "NoButton",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "EndMenu_NoButton"
+        }
+    ]
+}

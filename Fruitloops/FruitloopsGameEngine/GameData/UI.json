@@ -1,0 +1,2023 @@
+{
+    "gameObjects": [
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "moveDot",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -440.0,
+                    -220.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_MoveToTileHighlight00"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "moveDot",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -440.0,
+                    -110.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_MoveToTileHighlight01"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "moveDot",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -440.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_MoveToTileHighlight02"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "moveDot",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -330.0,
+                    -0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_MoveToTileHighlight03"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "moveDot",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -660.0,
+                    -220.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_MoveToTileHighlight04"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "moveDot",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -660.0,
+                    -220.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_MoveToTileHighlight05"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "moveDot",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -440.0,
+                    -220.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_MoveToTileHighlight"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "Box2",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    2.5791473388671875,
+                    -650.0
+                ],
+                "scale": [
+                    2150.0,
+                    500.0
+                ]
+            },
+            "type": "UI_Box2"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "PlayerTurn",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -245.0,
+                    -580.0
+                ],
+                "scale": [
+                    140.0,
+                    140.0
+                ]
+            },
+            "type": "UI_TurnIndicatorIcon"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "bagIcon",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "ScriptComponent": {
+                "name": "FruitLoops.HoverBag"
+            },
+            "Transform": {
+                "orientation": [
+                    0.24280786514282227,
+                    0.0
+                ],
+                "position": [
+                    -150.98599243164063,
+                    -780.25
+                ],
+                "scale": [
+                    100.0,
+                    100.0
+                ]
+            },
+            "type": "UI_bagIcon"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "healthbar(filler)",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -698.4279174804688,
+                    -518.163330078125
+                ],
+                "scale": [
+                    370.0,
+                    40.0
+                ]
+            },
+            "type": "UI_healthbar(filler)"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "healthbar(empty)",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -722.11279296875,
+                    -514.7385864257813
+                ],
+                "scale": [
+                    420.0,
+                    90.0
+                ]
+            },
+            "type": "UI_healthbar(empty)"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "energybar (filler)",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -700.1129760742188,
+                    -619.9091186523438
+                ],
+                "scale": [
+                    370.0,
+                    40.0
+                ]
+            },
+            "type": "UI_energybar(filler)"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "energybar (empty)",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -721.7598876953125,
+                    -633.1337890625
+                ],
+                "scale": [
+                    420.0,
+                    105.0
+                ]
+            },
+            "type": "UI_energybar(empty)"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "EnemyBarfill",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    705.0,
+                    -505.0
+                ],
+                "scale": [
+                    400.0,
+                    35.0
+                ]
+            },
+            "type": "UI_enemyHealthbar(filler)"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "Enemyhealth",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    680.0,
+                    -505.0
+                ],
+                "scale": [
+                    450.0,
+                    80.0
+                ]
+            },
+            "type": "UI_enemyHealthbar(empty)"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "EnemyEnergyFill",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    1.0,
+                    0.0
+                ],
+                "position": [
+                    708.0,
+                    -615.0
+                ],
+                "scale": [
+                    420.0,
+                    50.0
+                ]
+            },
+            "type": "UI_enemyEnergybar(filler)"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "EnemyEnergyBar",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    680.0,
+                    -625.0
+                ],
+                "scale": [
+                    475.0,
+                    100.0
+                ]
+            },
+            "type": "UI_enemyEnergybar(empty)"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "attackPower",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    515.0,
+                    -750.0
+                ],
+                "scale": [
+                    70.0,
+                    70.0
+                ]
+            },
+            "type": "UI_EnemyAttackPowerIcon"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "rangeIcon",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    825.0,
+                    -750.0
+                ],
+                "scale": [
+                    70.0,
+                    70.0
+                ]
+            },
+            "type": "UI_EnemyRangeIcon"
+        },
+        {
+            "Button": {
+                "isClicked": false,
+                "isEnabled": true,
+                "isHovered": false
+            },
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "End turn",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "RigidBody": {
+                "position": [
+                    50.64400100708008,
+                    -460.60809326171875
+                ],
+                "velocity": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "ScriptComponent": {
+                "name": "FruitLoops.EndTurnButton"
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    10.0
+                ],
+                "position": [
+                    50.64400100708008,
+                    -460.60809326171875
+                ],
+                "scale": [
+                    464.08221435546875,
+                    161.3934326171875
+                ]
+            },
+            "type": "UI_Button"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "explodeAttackIconDark",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -392.0,
+                    -770.0
+                ],
+                "scale": [
+                    80.0,
+                    80.0
+                ]
+            },
+            "type": "UI_explodeAttackIconDark"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "specialAttackIcon",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "ScriptComponent": {
+                "name": "FruitLoops.DisableHP"
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -392.0,
+                    -645.4000244140625
+                ],
+                "scale": [
+                    80.0,
+                    80.0
+                ]
+            },
+            "type": "UI_specialAttackIconForHover"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "headbuttIcon",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -392.0,
+                    -521.0
+                ],
+                "scale": [
+                    80.0,
+                    80.0
+                ]
+            },
+            "type": "UI_headbuttIconForHover"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "innerBag",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -350.0,
+                    -580.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_innerBag"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "cheese",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -430.0,
+                    -430.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_cheeseBag"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "bread",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -465.0,
+                    -520.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_breadBag"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "chicken",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -340.0,
+                    -590.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_chickenBag"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "fish",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -270.0,
+                    -425.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_fishBag"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "tomato",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -240.0,
+                    -520.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_tomatoBag"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "Crop_Cook_Button",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "ScriptComponent": {
+                "name": "FruitLoops.CookButton"
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    54.0,
+                    -720.0
+                ],
+                "scale": [
+                    300.0,
+                    105.0
+                ]
+            },
+            "type": "UI_Crop_Cook_Button"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "Cookbutton",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    -0.13659000396728516,
+                    0.0
+                ],
+                "position": [
+                    54.884490966796875,
+                    -700.9190063476563
+                ],
+                "scale": [
+                    465.0,
+                    183.0
+                ]
+            },
+            "type": "UI_Cookbutton"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "inventory_slot_holder",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -25.0,
+                    -591.815185546875
+                ],
+                "scale": [
+                    100.0,
+                    100.0
+                ]
+            },
+            "type": "UI_InventorySlotHolder"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "inventory_slot_holder",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "ScriptComponent": {
+                "name": "FruitLoops.InventoryManager"
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    130.0,
+                    -590.0
+                ],
+                "scale": [
+                    100.0,
+                    100.0
+                ]
+            },
+            "type": "UI_InventorySlotHolder-2"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "inventory_slot_holder",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    270.0,
+                    -780.0
+                ],
+                "scale": [
+                    100.0,
+                    100.0
+                ]
+            },
+            "type": "UI_InventorySlotHolder-3"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "inventory_slot_1",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "ScriptComponent": {
+                "name": "FruitLoops.Crafting_Slot_1"
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -25.0,
+                    -590.3619995117188
+                ],
+                "scale": [
+                    100.0,
+                    100.0
+                ]
+            },
+            "type": "UI_InventorySlot1"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "inventory_slot_2",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "ScriptComponent": {
+                "name": "FruitLoops.Crafting_Slot_2"
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    130.0,
+                    -592.03271484375
+                ],
+                "scale": [
+                    100.0,
+                    100.0
+                ]
+            },
+            "type": "UI_InventorySlot2"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "inventory_output",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    270.0,
+                    -780.0
+                ],
+                "scale": [
+                    100.0,
+                    100.0
+                ]
+            },
+            "type": "UI_InventoryOutput"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "rangeIcon",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -600.0,
+                    -763.0
+                ],
+                "scale": [
+                    80.0,
+                    80.0
+                ]
+            },
+            "type": "UI_rangeIcon"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "attackPower",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -885.0,
+                    -767.0
+                ],
+                "scale": [
+                    80.0,
+                    80.0
+                ]
+            },
+            "type": "UI_AttackPower"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    0.0
+                ],
+                "textureName": "",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "ScriptComponent": {
+                "name": "FruitLoops.InventorySystem"
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -530.2958374023438,
+                    -668.5084838867188
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_InventorySystem"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "SkillsWindow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -675.0,
+                    -350.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_SkillsWindow"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -1009.230712890625,
+                    -522.5780639648438
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowHP"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    -0.6198053359985352,
+                    0.0
+                ],
+                "position": [
+                    -1010.5203857421875,
+                    -628.2767944335938
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowEnergy"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    88.35612487792969,
+                    0.0
+                ],
+                "position": [
+                    -532.081298828125,
+                    -642.4559326171875
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowRange"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    89.66732788085938,
+                    0.0
+                ],
+                "position": [
+                    -799.0271606445313,
+                    -642.4559326171875
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowPower"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    88.34777069091797,
+                    0.0
+                ],
+                "position": [
+                    -222.5792694091797,
+                    129.66082763671875
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowTile"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    89.7928695678711,
+                    0.0
+                ],
+                "position": [
+                    39.20814514160156,
+                    -339.53863525390625
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowEndTurn"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    89.52262878417969,
+                    0.0
+                ],
+                "position": [
+                    107.55661010742188,
+                    -197.74758911132813
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowEnemy"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    384.8191223144531,
+                    -509.6879577636719
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowEnemyHP"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    387.39837646484375,
+                    -623.1207275390625
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowEnemyEnergy"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    88.213134765625,
+                    0.0
+                ],
+                "position": [
+                    883.8914794921875,
+                    -633.4328002929688
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowEnemyRange"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    -268.7991943359375,
+                    0.0
+                ],
+                "position": [
+                    595.022705078125,
+                    -637.2998046875
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowEnemyPower"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    -269.07293701171875,
+                    0.0
+                ],
+                "position": [
+                    -111.67416381835938,
+                    -110.09496307373047
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowChest"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -278.0316467285156,
+                    -788.1139526367188
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowInventory"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    -97.48871612548828,
+                    -719.7965087890625
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowWok"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    89.93417358398438,
+                    0.0
+                ],
+                "position": [
+                    -30.429832458496094,
+                    -468.43951416015625
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowSlot1"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    88.42208099365234,
+                    0.0
+                ],
+                "position": [
+                    121.74217987060547,
+                    -469.72869873046875
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowSlot2"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "TutorialArrow",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    88.24712371826172,
+                    0.0
+                ],
+                "position": [
+                    215.88232421875,
+                    -200.32565307617188
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_TutorialArrowExit"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "minus",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    90.0,
+                    0.0
+                ],
+                "position": [
+                    558.0,
+                    -815.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "UI_Minus"
+        }
+    ]
+}

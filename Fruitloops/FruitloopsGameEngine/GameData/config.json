@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "BGM": {
+                "BGM": "BGM_ShroomyDoomy_MainMenu_v1"
+            },
+            "Graphics": {
+                "fontColor": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "fontdetail": 48
+            },
+            "WindowProperties": {
+                "height": 720,
+                "imGuiTitleHeightOffset": 26,
+                "imGuiTitleWidthOffset": 7,
+                "title": "Fruitloops Engine",
+                "width": 1280
+            }
+        }
+    ]
+}

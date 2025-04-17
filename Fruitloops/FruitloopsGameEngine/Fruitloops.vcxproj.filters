@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\ECSHub.cpp">
+      <Filter>ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EntityManager.cpp">
+      <Filter>ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Factory.cpp">
+      <Filter>BaseEngine\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core.cpp">
+      <Filter>BaseEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Serialization.cpp">
+      <Filter>BaseEngine\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics.cpp">
+      <Filter>Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector2D.cpp">
+      <Filter>Systems\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector3D.cpp">
+      <Filter>Systems\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Matrix3x3.cpp">
+      <Filter>Systems\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input.cpp">
+      <Filter>Systems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision.cpp">
+      <Filter>Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics.cpp">
+      <Filter>Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShaderManager.cpp">
+      <Filter>Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WindowsWindow.cpp">
+      <Filter>Systems\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\pch.cpp">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Log.cpp">
+      <Filter>BaseEngine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio.cpp">
+      <Filter>Systems\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Matrix4x4.cpp">
+      <Filter>Systems\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Layer.cpp">
+      <Filter>BaseEngine\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LayerStack.cpp">
+      <Filter>BaseEngine\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AssetsManager.cpp">
+      <Filter>BaseEngine\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImguiCollision.cpp">
+      <Filter>IMGUI\ImGuiFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ConfigData.cpp">
+      <Filter>BaseEngine\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Profiler.cpp">
+      <Filter>BaseEngine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FrameBuffer.cpp">
+      <Filter>Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImguiPanelDocking.cpp">
+      <Filter>IMGUI\ImGuiFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGuiPanels.cpp">
+      <Filter>IMGUI\ImGuiFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ScriptSystem.cpp">
+      <Filter>GameLogic\ScriptCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PauseManager.cpp">
+      <Filter>Systems\PauseManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ScriptGlue.cpp">
+      <Filter>GameLogic\ScriptCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debug.cpp">
+      <Filter>BaseEngine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DebugManager.cpp">
+      <Filter>BaseEngine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PrefabManager.cpp">
+      <Filter>BaseEngine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelManager.cpp">
+      <Filter>Systems\LevelManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\IComponentArray.h">
+      <Filter>ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentManager.h">
+      <Filter>ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ECSDefinitions.h">
+      <Filter>ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ECSHub.h">
+      <Filter>ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EntityManager.h">
+      <Filter>ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System.h">
+      <Filter>ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraComponent.h">
+      <Filter>ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Transform.h">
+      <Filter>ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RigidBody.h">
+      <Filter>ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Material.h">
+      <Filter>ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core.h">
+      <Filter>BaseEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Serialization.h">
+      <Filter>BaseEngine\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector2D.h">
+      <Filter>Systems\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector3D.h">
+      <Filter>Systems\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Matrix3x3.h">
+      <Filter>Systems\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input.h">
+      <Filter>Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision.h">
+      <Filter>Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics.h">
+      <Filter>Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Message.h">
+      <Filter>Systems\Math\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Observer.h">
+      <Filter>Systems\Math\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Subject.h">
+      <Filter>Systems\Math\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ShaderManager.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WindowsWindow.h">
+      <Filter>Systems\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pch.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Log.h">
+      <Filter>BaseEngine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio.h">
+      <Filter>Systems\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Matrix4x4.h">
+      <Filter>Systems\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Layer.h">
+      <Filter>BaseEngine\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LayerStack.h">
+      <Filter>BaseEngine\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KeyCodes.h">
+      <Filter>Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AssetsManager.h">
+      <Filter>BaseEngine\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImguiCollision.h">
+      <Filter>IMGUI\ImGuiFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SystemManager.h">
+      <Filter>ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ConfigData.h">
+      <Filter>BaseEngine\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animation.h">
+      <Filter>ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Profiler.h">
+      <Filter>BaseEngine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Factory.h">
+      <Filter>BaseEngine\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BackgroundLayer.h">
+      <Filter>Systems\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameLayer.h">
+      <Filter>Systems\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenuLayer.h">
+      <Filter>Systems\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EndMenuLayer.h">
+      <Filter>Systems\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FontLayer.h">
+      <Filter>Systems\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FontData.h">
+      <Filter>ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FrameBuffer.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImguiPanelDocking.h">
+      <Filter>IMGUI\ImGuiFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGuiPanels.h">
+      <Filter>IMGUI\ImGuiFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScriptSystem.h">
+      <Filter>GameLogic\ScriptCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PauseManager.h">
+      <Filter>Systems\PauseManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UnitComponent.h">
+      <Filter>GameLogic\Logic Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScriptComponent.h">
+      <Filter>GameLogic\Logic Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TileComponent.h">
+      <Filter>GameLogic\Logic Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScriptGlue.h">
+      <Filter>GameLogic\ScriptCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debug.h">
+      <Filter>BaseEngine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DebugManager.h">
+      <Filter>BaseEngine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Button.h">
+      <Filter>GameLogic\Logic Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LogicProxySystem.h">
+      <Filter>GameLogic\ScriptCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameTypes.h">
+      <Filter>BaseEngine\Utlities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HelperFunctions.h">
+      <Filter>BaseEngine\Utlities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility.h">
+      <Filter>BaseEngine\Utlities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DebugMacros.h">
+      <Filter>BaseEngine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PrefabManager.h">
+      <Filter>BaseEngine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PauseMenuLayer.h">
+      <Filter>Systems\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StoryLayer.h">
+      <Filter>Systems\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FPSLayer.h">
+      <Filter>Systems\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnvironmentLayer.h">
+      <Filter>Systems\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LevelManager.h">
+      <Filter>Systems\LevelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UtilsLayer.h">
+      <Filter>Systems\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UILayer.h">
+      <Filter>Systems\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ChestOverlayLayer.h">
+      <Filter>Systems\GameLayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BaseEngine">
+      <UniqueIdentifier>{b8c03a0d-f967-4eca-a72b-556476a68801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic">
+      <UniqueIdentifier>{ac649780-7843-40c9-82e5-cb41ed04ccf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4ac2168e-698f-4352-9620-190ca5a738a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{ff8e75d0-25b6-48ae-b074-3d1a70deff71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{0fb0767b-36a7-4327-bb68-3a01430c8c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{05bc594e-d5ea-4bf4-ae32-b5e247527014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS">
+      <UniqueIdentifier>{d5320914-da1d-40c1-987e-8f77de6bfc5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Components">
+      <UniqueIdentifier>{98bb3bb7-6266-4f7f-9491-06934363fad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseEngine\Core">
+      <UniqueIdentifier>{b95dbcf7-3ce1-46e7-8e4e-f62f9b39b01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseEngine\Serialization">
+      <UniqueIdentifier>{227595b9-73f6-4e75-bee1-713ded644c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseEngine\Factory">
+      <UniqueIdentifier>{254ca6ae-35d4-4759-8f3e-f8d283a93244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Graphics">
+      <UniqueIdentifier>{e26d35cc-c084-4b89-bd97-cb70e530b76f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Math">
+      <UniqueIdentifier>{04c06838-68c2-4a35-86a5-a2b33d82246f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Physics">
+      <UniqueIdentifier>{f4074704-f2a4-47bd-8ed2-4ba9efc9973a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Input">
+      <UniqueIdentifier>{266ff045-7dae-4bdc-be86-17588d069820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Window">
+      <UniqueIdentifier>{059bb015-d0a7-41a0-919b-567fa4ca3bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{af0a2d30-fefa-4b23-84d7-41f4555d68a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseEngine\Debug">
+      <UniqueIdentifier>{28b4a9d2-d79e-43e0-b0a3-695d99f166f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Audio">
+      <UniqueIdentifier>{1019e8fd-1efe-4fc4-b144-91b7099ea306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseEngine\Layer">
+      <UniqueIdentifier>{7d81fb26-e613-4199-a428-c3c3402f7955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI\ImGuiFunctions">
+      <UniqueIdentifier>{9aa70a8c-15c9-49ab-a502-f5b680e47ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Event">
+      <UniqueIdentifier>{5eaa1364-9661-4d58-82fc-c3b763a5e318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\GameLayer">
+      <UniqueIdentifier>{82c4dab0-223f-4520-b93e-f27e53c0109d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic\Logic Components">
+      <UniqueIdentifier>{bdf05b55-809c-4a29-b0bb-f56705e198e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\PauseManager">
+      <UniqueIdentifier>{68aed119-2206-4269-8a8a-26d808e2464f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic\ScriptCore">
+      <UniqueIdentifier>{6347129d-ea12-4fc1-919a-41722941a4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseEngine\Utlities">
+      <UniqueIdentifier>{c711ea4f-10db-4362-9509-291204172052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\LevelManager">
+      <UniqueIdentifier>{42468f35-14da-4848-b928-0eeacca58b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Math\Message">
+      <UniqueIdentifier>{bfd5c302-5576-47a9-9359-9f58cb76ff68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

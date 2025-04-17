@@ -1,0 +1,153 @@
+{
+    "gameObjects": [
+        {
+            "CamComponent": {
+                "height": 1435,
+                "heightChangeDir": 1,
+                "heightChangeVal": 5,
+                "linearSpeed": 2.0,
+                "maxHeight": 2000,
+                "minHeight": 500
+            },
+            "Material": {
+                "color": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "textureName": "",
+                "uvMax": [
+                    0.0,
+                    0.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    -170.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "Utils_Camera"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "ScriptComponent": {
+                "name": "FruitLoops.TileManager"
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "Utils_TileManager"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "ScriptComponent": {
+                "name": "FruitLoops.InventoryManager"
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "Utils_InventoryManager"
+        },
+        {
+            "Material": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "textureName": "",
+                "uvMax": [
+                    1.0,
+                    1.0
+                ],
+                "uvMin": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "ScriptComponent": {
+                "name": "FruitLoops.UnitManager"
+            },
+            "Transform": {
+                "orientation": [
+                    0.0,
+                    0.0
+                ],
+                "position": [
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "type": "Utils_UnitManager"
+        }
+    ]
+}

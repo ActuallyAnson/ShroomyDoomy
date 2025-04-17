@@ -1,0 +1,9 @@
+Our level editor is a cohesive tool made up of several integrated functions, each working together to streamline the design process.
+
+Firstly, it uses ImGui, which provides the foundational interface for interacting with the editor. Through ImGui, we have implemented a grid calculation function that dynamically draws the grid over the framebuffer. By toggling the “Show Grid” option, users can display or hide this grid overlay on the framebuffer window, allowing them to precisely align tiles and map out the level layout with ease.
+
+The editor also integrates a renderer connected to ImGui, enabling users to spawn and despawn objects directly within the level editor interface. With the grid in place, objects can be intuitively positioned and snapped to the layout grid, providing a clear and organized structure for building levels. We’ve layered the editor such that spawned objects are placed on top of the grid tiles, making it easy to see how assets and game objects align with the intended layout.
+
+Once a scene is constructed, the “Save Changes” function can be used to serialize the scene data into a JSON file. This enables scene persistence, allowing users to save and reload levels in the future. By saving directly to JSON, we ensure that the layout, object positions, and grid data are preserved, making future editing and iteration simple and efficient.
+
+Overall, the level editor combines real-time visual feedback with intuitive controls, creating a powerful tool for level design that streamlines the process from concept to execution.
