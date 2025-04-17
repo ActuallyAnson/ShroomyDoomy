@@ -1,5 +1,7 @@
 ## TEAM Fruitloops
 
+Copyright © 2025 by DigiPen Corp, Singapore, All rights reserved.
+
 * Game Concept *
 2D Strategy Tile-Based Fighting Game that Involves Cooking Mechanics to power-up. The cooking in a dungeon concept is inspired from a popular Japanese animation series “Dungeon Meshi”, where a group of adventurers enter a dungeon to save their missing party member, while cooking dishes from parts of monsters that they come across
 
